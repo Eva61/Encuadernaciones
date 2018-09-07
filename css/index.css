@@ -1,0 +1,28 @@
+body {
+    background: rgb(15, 15, 15); 
+    color: #d1d1d1
+}
+/*body es un selector que maneja todo el documento. background es la propiedad (fondo) que se va a modificar el color, con el valor de preferencia*/
+/*El color dentro del selector body cambia el color de la fuente de todo el documento*/
+.container{
+    margin:auto;
+    width:960px;
+}
+.titulo{
+    font-size:50px;
+    text align: center;
+    color: blue;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    width: 300px;
+    float:left;
+    border:1px solid #d1d1d1;
+    text-align: center;
+    margin:9px;
+    border-radius:3px;
+}
